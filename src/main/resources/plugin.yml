@@ -1,0 +1,22 @@
+name: archer
+version: '${project.version}'
+main: glizz.archer.Archer
+commands:
+  bard:
+    description: Comando Bard
+    usage: /bard <jugador> <cantidad>
+  givebard:
+    description: Comando Give Bard
+    usage: /givebard <jugador> [cantidad]
+
+permissions:
+  miplugin.use.bard:
+    description: Permite usar el comando /bard
+    default: op
+  miplugin.use.givebard:
+    description: Permite usar el comando /givebard
+    default: op
+
+
+
+
