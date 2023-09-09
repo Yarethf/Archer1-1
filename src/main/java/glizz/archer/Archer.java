@@ -156,7 +156,7 @@ public class Archer extends JavaPlugin implements Listener, TabExecutor {
                 List<String> expectedLores = Arrays.asList(
                         ChatColor.GRAY + "Este item es solo para los archers,",
                         ChatColor.GRAY + "tiempo de espera de 20 Segundos.",
-                        ChatColor.BLUE + "Ve por ellos y ",
+                        ChatColor.BLUE + "Ve por ell@s y ",
                         ChatColor.RED + "no te rindas"
                 );
                 if (isInProtectedRegion(player)) {
@@ -233,7 +233,7 @@ public class Archer extends JavaPlugin implements Listener, TabExecutor {
         lore.add(ChatColor.GRAY + "tiempo de espera de 20 Segundos.");
 
         // Agregar líneas adicionales al lore
-        lore.add(ChatColor.BLUE + "Ve por ellos y");
+        lore.add(ChatColor.BLUE + "Ve por ell@s y");
         lore.add(ChatColor.RED + "no te rindas");
 
         // Establecer el nuevo lore en el ítem
